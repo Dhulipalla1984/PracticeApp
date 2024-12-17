@@ -254,7 +254,7 @@ namespace PracticeApp
             calculator = new DiscountCalculator(premiumDiscount);
             discountedPrice = calculator.CalculateDiscount(100); // 30% discount applied
             Console.WriteLine($"Premium Discount Price: {discountedPrice}");
-            // Console.ReadKey();
+           
             Console.WriteLine("________________________");
             /* Liskov */
             Console.WriteLine("this is Liskov Principle Examples");
